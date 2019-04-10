@@ -1,5 +1,5 @@
 <?php
-$your_email ='info@gymglishve.com';// <<=== update to your email address
+$your_email ='roberestopa600@hotmail.com';// <<=== update to your email address
 
 session_start();
 $errors = '';
@@ -40,7 +40,7 @@ if(isset($_POST['submit']))
         //send the email
         $to = $your_email;
         $subject="Envio de formulario GYMGLISHVE";
-        $from = 'info@gymglishve.com';
+        $from = 'roberestopa600@hotmail.com';
         $ip = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '';
 
         $body = " $name te envio una solicitud de contacto:\n\n".
@@ -96,10 +96,10 @@ function IsInjected($str)
 	<link rel="icon" href="logo/gymglish.jpg" type="image/jpg">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css"> 
-	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen"> 
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
 	<link rel="stylesheet" href="assets/css/style.css">
-    <link rel='stylesheet' id='camera-css'  href='assets/css/camera.css' type='text/css' media='all'> 
+    <link rel='stylesheet' id='camera-css'  href='assets/css/camera.css' type='text/css' media='all'>
 </head>
 
 <script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
@@ -143,7 +143,7 @@ function IsInjected($str)
 				<div class="row">
 					<div class="col-md-8">
 						<h3 class="section-title">Llenar Formulario</h3>
-						
+
 						<b>
 						<font color="red">
 								<?php
@@ -151,8 +151,8 @@ function IsInjected($str)
 								echo "<p class='err'>".nl2br($errors)."</p>";
 								}
 								?>
-						
-						
+
+
 						<div id='contact_form_errorloc' class='err'></div>
 						</font>
 						</b>
@@ -205,17 +205,17 @@ function IsInjected($str)
 								<div class="contact-info">
 									<h5>Direccion</h5>
 									<p>Carabobo/Valencia - Urb. Trigal Centro, calle pocaterra Nro 92-65.</p>
-									
+
 									<h5>Email</h5>
 									<p>gymglish.info@gmail.com</p>
-									
+
 									<h5>Telefonos</h5>
 									<p>0241-814.22.18</p>
 									<p>0414-413.70.73</p>
 									<p>0412-216.24.66</p>
 								</div>
-							</div> 
-						</div> 						
+							</div>
+						</div>
 					</div>
 					<div class="col-md-8">
 					<h3 class="section-title">Mapa</h3>
@@ -226,19 +226,19 @@ function IsInjected($str)
 	<!-- /container -->
 
      <footer id="footer">
- 
+
 		<div class="container">
    <div class="row">
   <div class="footerbottom">
-   
+
    <center>
-    <div> 
-<a href="contacto.html"><h4 style="color: white;"><em>Contacto</em></h4></a> 
+    <div>
+<a href="contacto.html"><h4 style="color: white;"><em>Contacto</em></h4></a>
 <p><i class="fa fa-map-marker"> Carabobo, Valencia Urb. Trigal Centro, calle pocaterra Nro 92-65. </i> </p>
 <p><i class="fa fa-phone"> / 0241-814.22.18 – 0414-413.70.73 - 0412-216.24.66</i> </p>
 <p><i class="fa fa-envelope-o"> gymglish.info@gmail.com</i> </p>
-            </div> 
-            </div><!-- end widget --> 
+            </div>
+            </div><!-- end widget -->
     </div>
 	</center>
   </div>
@@ -258,7 +258,7 @@ function IsInjected($str)
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="simplenav">
-								<a href="index.html">Inicio</a> | 
+								<a href="index.html">Inicio</a> |
 								<a href="nosotros.html">Nosotros</a> |
 								<a href="inscripcion.html">Inscripción</a> |
 								<a href="horarios.html">Horarios</a> |
@@ -292,7 +292,7 @@ frmvalidator.EnableOnPageErrorDisplaySingleBox();
 frmvalidator.EnableMsgsTogether();
 
 frmvalidator.addValidation("name","req","Campo de Nombre --- REQUERIDO");
-frmvalidator.addValidation("email","req","Campo de Email --- REQUERIDO"); 
+frmvalidator.addValidation("email","req","Campo de Email --- REQUERIDO");
 frmvalidator.addValidation("email","email","Por favor inserta una direccion de Email valida");
 frmvalidator.addValidation("telefono","req","Campo de Telefono --- REQUERIDO");
 frmvalidator.addValidation("asunto","req","Campo de Asunto --- REQUERIDO");
@@ -306,8 +306,8 @@ function refreshCaptcha()
 	img.src = img.src.substring(0,img.src.lastIndexOf("?"))+"?rand="+Math.random()*1000;
 }
 </script>
-	
-	
+
+
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
